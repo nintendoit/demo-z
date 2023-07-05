@@ -1,28 +1,28 @@
 *{
   box-sizing: border-box;
   font-family: 'Open Sans', serif;
-  color: #fff;
+  color: #000;
   list-style: none;
 }
 
 a {
-  color: #4285F4;
+  color: red;
+}
+
+a:hover {
+  color:rgb(0, 0, 0);
 }
 
 body {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)
-  ) , url(../img/ocean-bg.jpg) ;
+  background: linear-gradient(180deg, rgba(197,248,243,1) 0%, rgba(91,204,255,1) 100%);
 }
 
 header {
-  border: solid white;
-  border-width: 0 0 3px 0;
+  backdrop-filter: blur(10px);
   position: sticky;
   top: 0px;
   z-index: 99;
-  background-color: black;
+  background-color: transparents;
 }
 
 .site-header__wrapper {
@@ -48,11 +48,11 @@ header {
 }
 
 h1 {
-  color: #EEB300;
+  color: navy;
 }
 
 .details h2 {
-  color: #F0A500;
+  color: navy;
   font-size: 25px;
   margin-bottom: 0px;
 }
@@ -73,7 +73,7 @@ h1 {
 }
 
 .container .image-container .image{
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0);
   overflow: hidden;
   cursor: pointer;
 }
