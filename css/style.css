@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  font-family: cursive , 'Open Sans', serif;
+  font-family: 'Open Sans', serif;
   color: #000;
   list-style: none;
 }
@@ -16,26 +16,7 @@ a:hover {
 body {
   background: linear-gradient(180deg, rgba(197,248,243,1) 0%, rgba(91,204,255,1) 100%);
 }
-/* OLD HEADER CSS CODE
-header {
-  backdrop-filter: blur(10px);
-  position: sticky;
-  top: 0px;
-  z-index: 99;
-}
 
-.site-header__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 3px 50px;
-}
-
-.brand img {
-  width: 70px;
-  height: auto;
-} */
 
 .fullcontainer{
   position: relative;
