@@ -14,8 +14,7 @@ a:hover {
 }
 
 body {
-  /* background: linear-gradient(180deg, rgba(197,248,243,1) 0%, rgba(91,204,255,1) 100%); */
-  background-image: url(../img/background-img.jpg);
+  background: rgba(197,248,243,1);
 }
 
 
