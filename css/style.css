@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
-  font-family: 'Open Sans', serif;
-  color: #000;
+  font-family: 'Roboto', serif;
+  color: white;
   list-style: none;
 }
 
@@ -14,7 +14,9 @@ a:hover {
 }
 
 body {
-  background: rgba(197,248,243,1);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-image.jpg);
+  background-blend-mode: revert-layer;
+  background-size: cover;
 }
 
 
@@ -28,11 +30,11 @@ body {
 }
 
 h1 {
-  color: navy;
+  color: wheat;
 }
 
 .details h2 {
-  color: navy;
+  color: white;
   font-size: 25px;
   margin-bottom: 0px;
 }
@@ -54,9 +56,9 @@ h1 {
 }
 
 .container .image-container .image img{
-  height: 200px;
+  height: 400px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: .2s linear;
 }
 
