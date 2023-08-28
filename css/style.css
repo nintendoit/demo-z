@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-  color:rgb(0, 0, 0);
+  color: cornflowerblue;
 }
 
 body {
@@ -36,12 +36,14 @@ h1 {
 .details h2 {
   color: white;
   font-size: 25px;
-  margin-bottom: 0px;
+  margin-bottom: 6px;
+  margin-top: 20px;
 }
 
 .details p {
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 0px;
+  text-align: justify;
 }
 
 
@@ -123,6 +125,9 @@ footer {
     flex-direction: row-reverse;
     justify-content: center;
   }
+  .content {
+    padding: 2% 3.8% 5%;
+  }
 }
 
 .details{
@@ -132,7 +137,6 @@ footer {
 } 
 
 .content {
-  padding: 2% 3.8% 5%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -155,5 +159,7 @@ img {
   color: white;
   padding: 6px 12px;
   border-radius: 10px;
-  margin: 0 13px;
+  margin: 13px 13px;
+  font-size: 23px;
+  text-align: center;
 }
